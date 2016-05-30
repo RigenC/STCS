@@ -1,0 +1,51 @@
+{
+    "type": "force",
+    "categories": [
+        {
+            "name": "HTML5",
+            "keyword": {},
+            "base": "HTMLElement"
+        },
+        {
+            "name": "WebGL",
+            "keyword": {},
+            "base": "WebGL"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "XPathNSResolver",
+            "value": 100,
+            "symbolSize":1,
+            "x":10,
+            "y":10,
+            "category": 0
+        },
+        {
+            "name": "XPathResult",
+            "value": 1,
+            "x":100,
+            "y":100,
+            "symbolSize":10,
+            "category": 0
+        },
+        {
+            "name": "XSLTProcessor",
+            "value": 1,
+            "x":150,
+            "y":100,
+            "symbolSize":10,
+            "category": 1
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 1,
+            "target": 2
+        }
+    ]
+}
